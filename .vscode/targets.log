@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun May 15 18:22:04 2022
+# Make data base, printed on Mon Jun  6 16:34:22 2022
 
 # Variables
 
@@ -21,15 +21,19 @@ GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
 SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
-GJS_DEBUG_OUTPUT = stderr
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-42f73736-43fc-4713-9e73-d3bdd32acd60.sock
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4c677ab8-235e-4726-861c-83b6f3aaf3f8.sock
+LC_NAME = en_US.UTF-8
+# environment
+LC_NUMERIC = en_US.UTF-8
 # environment
 VSCODE_CWD = /home/shenyao-jin
 # environment
 WINDOWPATH = 2
 # environment
 all_proxy = http://127.0.0.1:7890
+# environment
+LC_ADDRESS = en_US.UTF-8
 # default
 MAKE_COMMAND := make
 # environment
@@ -41,7 +45,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/shenyao-jin/文档/2022春夏/地球电磁/term/MT1DOCC_python
+PWD = /home/shenyao-jin/Documents/2022春夏/地球电磁/term/MT1DOCC_python
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -55,7 +59,7 @@ VSCODE_LOG_STACK = false
 # environment
 CONDA_PROMPT_MODIFIER = (base) 
 # environment
-VSCODE_CODE_CACHE_PATH = /home/shenyao-jin/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+VSCODE_CODE_CACHE_PATH = /home/shenyao-jin/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LANG = C
 # environment
@@ -67,9 +71,9 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 # makefile
 MAKEFLAGS = pqrR
 # environment
-GOLAND_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/goland.vmoptions
+GOLAND_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/goland.vmoptions
 # makefile
-CURDIR := /home/shenyao-jin/文档/2022春夏/地球电磁/term/MT1DOCC_python
+CURDIR := /home/shenyao-jin/Documents/2022春夏/地球电磁/term/MT1DOCC_python
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -79,7 +83,7 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-JETBRAINSCLIENT_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/jetbrainsclient.vmoptions
+JETBRAINSCLIENT_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/jetbrainsclient.vmoptions
 # environment
 MFLAGS = -pqrR
 # environment
@@ -101,21 +105,21 @@ CONDA_SHLVL = 1
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 63952
+VSCODE_PID = 57364
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-CLION_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/clion.vmoptions
+CLION_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/clion.vmoptions
 # environment
 CONDA_PYTHON_EXE = /home/shenyao-jin/anaconda3/bin/python
 # environment
-SESSION_MANAGER = local/ubuntu-2204:@/tmp/.ICE-unix/2554,unix/ubuntu-2204:/tmp/.ICE-unix/2554
+SESSION_MANAGER = local/syjin-ubuntu:@/tmp/.ICE-unix/2844,unix/syjin-ubuntu:/tmp/.ICE-unix/2844
 # automatic
 *F = $(notdir $*)
 # environment
-APPCODE_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/appcode.vmoptions
+APPCODE_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/appcode.vmoptions
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
@@ -123,7 +127,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{},"_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -139,51 +143,55 @@ XMODIFIERS = @im=ibus
 # environment
 LD_LIBRARY_PATH = :/opt/GMT-6.3.0/lib64
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
-# environment
 SHLVL = 0
 # environment
-PHPSTORM_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/phpstorm.vmoptions
+PHPSTORM_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/phpstorm.vmoptions
 # environment
-RUBYMINE_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/rubymine.vmoptions
+RUBYMINE_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/rubymine.vmoptions
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /opt/GMT-6.3.0/bin:/home/shenyao-jin/geophysics-software:/home/shenyao-jin/anaconda3/bin:/home/shenyao-jin/anaconda3/condabin:/usr/local/texlive/2022/bin/x86_64-linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+PATH = /home/shenyao-jin/bin:/opt/GMT-6.3.0/bin:/home/shenyao-jin/geophysics-software:/home/shenyao-jin/anaconda3/bin:/home/shenyao-jin/anaconda3/condabin:/usr/local/texlive/2022/bin/x86_64-linux:/home/shenyao-jin/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # environment
 GMT_DATADIR = /home/shenyao-jin/GMTDB
 # default
 MAKEFILES := 
 # environment
-LANGUAGE = zh_CN:zh
+LANGUAGE = en_US:en
+# environment
+LC_MONETARY = en_US.UTF-8
 # automatic
 ^F = $(notdir $^)
 # environment
-WEBIDE_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/webide.vmoptions
+LC_TIME = en_US.UTF-8
 # environment
-PYCHARM_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/pycharm.vmoptions
+WEBIDE_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/webide.vmoptions
 # environment
-RIDER_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/rider.vmoptions
+PYCHARM_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/pycharm.vmoptions
 # environment
-IDEA_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/idea.vmoptions
+RIDER_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/rider.vmoptions
 # environment
-INVOCATION_ID = 0384915ad44f4d3fbcbf8a160bb6603d
+IDEA_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/idea.vmoptions
+# environment
+INVOCATION_ID = 53ec0722e1714a778824431e91c9014c
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = shenyao-jin
 # environment
+LC_TELEPHONE = en_US.UTF-8
+# environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
 ?F = $(notdir $?)
 # environment
-DATAGRIP_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/datagrip.vmoptions
+DATAGRIP_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/datagrip.vmoptions
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # environment
-WEBSTORM_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/webstorm.vmoptions
+WEBSTORM_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/webstorm.vmoptions
 # environment
 LS_COLORS = 
 # automatic
@@ -197,7 +205,7 @@ GNUMAKEFLAGS :=
 # environment
 CONDA_DEFAULT_ENV = base
 # environment
-DATASPELL_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/dataspell.vmoptions
+DATASPELL_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/dataspell.vmoptions
 # environment
 LOGNAME = shenyao-jin
 # environment
@@ -205,7 +213,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 2590
+SYSTEMD_EXEC_PID = 2844
 # environment
 DISPLAY = :1
 # environment
@@ -215,13 +223,17 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 2127
+MANAGERPID = 2405
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 63952
+LC_MEASUREMENT = en_US.UTF-8
 # environment
-JETBRAINS_CLIENT_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/jetbrains_client.vmoptions
+GIO_LAUNCHED_DESKTOP_FILE_PID = 57364
+# environment
+JETBRAINS_CLIENT_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/jetbrains_client.vmoptions
 # environment
 _ = /usr/share/code/code
+# environment
+LC_PAPER = en_US.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -229,7 +241,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 _CE_M = 
 # environment
-JOURNAL_STREAM = 8:27503
+JOURNAL_STREAM = 8:38505
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -241,11 +253,15 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-413bf7b0-1.67.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-413bf7b0-1.67.2-main.sock
+# environment
+GSETTINGS_SCHEMA_DIR = /home/shenyao-jin/data
 # environment
 MATHEMATICA_HOME = /usr/local/Wolfram/Mathematica/12.3
 # environment
 IM_CONFIG_PHASE = 1
+# environment
+PAPERSIZE = letter
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -255,7 +271,7 @@ SUFFIXES :=
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-GATEWAY_VM_OPTIONS = /home/shenyao-jin/文档/Keith/ja-netfilter-all/vmoptions/gateway.vmoptions
+GATEWAY_VM_OPTIONS = /home/shenyao-jin/Documents/Keith/ja-netfilter-all/vmoptions/gateway.vmoptions
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -263,11 +279,14 @@ GMT6HOME = /opt/GMT-6.3.0
 # environment
 CONDA_EXE = /home/shenyao-jin/anaconda3/bin/conda
 # environment
+ 
 _CE_CONDA = 
 # environment
 GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
 # variable set hash-table stats:
-# Load=127/1024=12%, Rehash=0, Collisions=6/154=4%
+# Load=136/1024=13%, Rehash=0, Collisions=8/163=5%
 
 # Pattern-specific Variable Values
 
@@ -275,9 +294,9 @@ GDMSESSION = ubuntu
 
 # Directories
 
-# . (device 66306, inode 4849718): 11 files, no impossibilities.
+# . (device 66306, inode 4849718): 10 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -292,7 +311,6 @@ Makefile:
 #  File has been updated.
 #  Failed to be updated.
 
- 
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
@@ -328,12 +346,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 184 B / avg = 9 B
-# current buf: size = 8162 B / used = 184 B / count = 19 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 161 B / avg = 8 B
+# current buf: size = 8162 B / used = 161 B / count = 18 / avg = 8 B
 
-# strcache performance: lookups = 22 / hit rate = 13%
+# strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=0/22=0%
-# Finished Make data base on Sun May 15 18:22:04 2022
+# Load=18/8192=0%, Rehash=0, Collisions=0/21=0%
+# Finished Make data base on Mon Jun  6 16:34:22 2022
 
  

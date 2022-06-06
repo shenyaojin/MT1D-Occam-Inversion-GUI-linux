@@ -1,6 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/shenyao-jin/文档/2022春夏/地球电磁/term/MT1DOCC_python'
-make: Leaving directory '/home/shenyao-jin/文档/2022春夏/地球电磁/term/MT1DOCC_python'
+make: Entering directory '/home/shenyao-jin/Documents/2022春夏/地球电磁/term/MT1DOCC_python'
+make: Leaving directory '/home/shenyao-jin/Documents/2022春夏/地球电磁/term/MT1DOCC_python'
  
 make: *** No targets specified and no makefile found.  Stop.
 
