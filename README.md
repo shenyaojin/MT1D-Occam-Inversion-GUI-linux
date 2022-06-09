@@ -10,3 +10,6 @@ It's a GUI tool to implement occam 1D inversion.
 
 ## Usage
 run **GUI.py**.
+
+## Example
+See **./edi/IAJ34** and **./edi/IAJ34.edi**
