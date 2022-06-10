@@ -3,7 +3,7 @@
 ## Dependence: 
 1. python 3.6 or later
 2. numpy, matplotlib, tkinter
-3. linux shell
+3. linux shell, Octave on linux
 
 ## Description
 It's a GUI tool to implement occam 1D inversion.
