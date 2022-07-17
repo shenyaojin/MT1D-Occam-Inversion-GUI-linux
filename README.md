@@ -13,3 +13,6 @@ run **GUI.py**.
 
 ## Example
 See **./edi/IAJ34** and **./edi/IAJ34.edi**
+
+## Comment
+It's a very old-fashioned method, the code is out of date and has a low effciency.
